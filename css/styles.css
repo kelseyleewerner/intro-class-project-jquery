@@ -1,3 +1,15 @@
+/* Drank */
+
 #drinks, #under-21 {
+  display: none;
+}
+
+/* Car Insurance */
+
+.btn {
+  display: block;
+}
+
+#quote {
   display: none;
 }
