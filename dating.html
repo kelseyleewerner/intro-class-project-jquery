@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/practice.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/dating-test.js"></script>
+    <title>Dating</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>What celebrity do you want to date?</h1>
+      <p>Fill out the form to find your match!</p>
+      <form id="dating">
+        <label for="age">Age</label>
+        <input id="age" type="text">
+        <label for="trait">Most Important Trait</label>
+        <select id="trait">
+          <option value="funny">Funny</option>
+          <option value="sexy">Sexy</option>
+          <option value="smart">Smart</option>
+          <option value="rich">Rich</option>
+        </select>
+        <button type="submit" class="btn">Find my dating match</button>
+      </form>
+
+      <div class="row">
+
+        <div class="col-md-4" id="leo"><h1>Leonardo DiCaprio</h1>
+          <img src="img/leo.jpg" alt="cheetah" class="img-thumbnail"/>
+        </div>
+
+        <div class="col-md-4" id="hamm"><h1>Jon Hamm</h1>
+          <img src="img/hamm.jpg" alt="penguin" class="img-thumbnail"/>
+        </div>
+
+        <div class="col-md-4" id="bieber"><h1>Justin Bieber</h1>
+          <img src="img/bieber.jpg" alt="bunny rabbit" class="img-thumbnail"/>
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
